@@ -1,6 +1,6 @@
 # Remitly Landing Page
 
-A modern, responsive landing page for rem built with HTML and CSS only.
+A modern, responsive landing page for rem built with HTML and CSS and JS.
 
 ## Features
 
