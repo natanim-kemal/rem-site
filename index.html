@@ -839,11 +839,10 @@
 
             .hero {
                 height: calc(100dvh / 0.85);
-                min-height: auto;
-            }
-
-            .hero {
+                min-height: unset;
                 background-position: 70% center;
+                display: flex;
+                flex-direction: column;
             }
 
             .nav-right {
@@ -883,12 +882,12 @@
             }
 
             .hero-content {
+                flex: 1;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                padding-bottom: 3rem;
-                padding-top: 2rem;
-                gap: 3rem;
+                padding: 1rem var(--spacing-container) 4rem;
+                gap: 5rem;
             }
 
             .hero-visual {
@@ -900,6 +899,7 @@
             .text-block {
                 width: 100%;
                 padding-left: 0;
+                text-align: center;
                 transform: translateY(0);
             }
 
@@ -1097,7 +1097,7 @@
         <div class="footer-content">
             <div class="footer-brand">
                 <h5>rem</h5>
-                <p>Your intelligent content vault.</p>
+                <p>Your intelligent content consumption vault.</p>
             </div>
             <div class="footer-links">
                 <div class="link-column">
